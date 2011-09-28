@@ -1,1 +1,1 @@
-sudo java -Xmx512M -jar bin/sbt-launch.jar "$@"
+java -Xmx512M -jar bin/sbt-launch.jar "$@"
