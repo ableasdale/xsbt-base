@@ -1,4 +1,6 @@
 .history
+.project
+.classpath
 
 project/target
 target/
