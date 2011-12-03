@@ -4,7 +4,7 @@ import org.openqa.selenium.firefox._
 import org.openqa.selenium.htmlunit._
 
 class IntegrationPlaceholder extends Specification {
- 
+ /*
   val driver = new HtmlUnitDriver     //FirefoxDriver
     driver.get("http://maps.google.com")
   	//val inputElement = driver.findElement(By.name("q"))
@@ -17,10 +17,10 @@ class IntegrationPlaceholder extends Specification {
    driver.getTitle() must startWith("Google Places")   
   }
 
-/*
+
   "have the proper location title" in {
     val titleElement = driver.findElement(By.xpath("//span[@class='pp-place-title']/span"))
     titleElement.getText must startWith("San Francisco, CA")
-  } */ 
-  }
+  } 
+  } */
 }
