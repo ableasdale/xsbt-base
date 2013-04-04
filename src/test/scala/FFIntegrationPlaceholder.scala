@@ -7,12 +7,12 @@ import org.openqa.selenium.By.ByTagName
 class FFIntegrationPlaceholder extends Specification {
 
   val driver = new FirefoxDriver
-  driver.get("http://localhost:8030/test")
+  driver.get("http://localhost")
 
   "Page" should {
-    "have an h2 elem containing the text" in {
-      val inputElement = driver.findElement(By.tagName("h2"))
-      inputElement.getText must startWith("Varoius test suites")
+    "have an h1 elem containing the text" in {
+      val inputElement = driver.findElement(By.tagName("h1"))
+      inputElement.getText must startWith("Ta")
     }
   }
 
